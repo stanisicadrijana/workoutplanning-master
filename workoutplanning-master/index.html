@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href="styles.css">
+        <title>Workoutplanning</title>
+    </head>
+    <div class="page">
+        <body>
+            <header class= "header">
+                <img src="./images/logopage.jpg" alt="Dein Workoutplanning Logo" width="100">
+                <h3>Dein Workoutplanning</h3>
+                <div class="search-container">
+                    <form action="./index.html">
+                        <input type="text" placeholder="Suche Benutzer..." id= "searchBox"name="searchUser">
+                        <button type="submit" id="submitButton">Suchen</button>
+                    </form>
+                </div>
+                <button id="logoutButton">Logout</button>
+            </header>
+            <aside>
+                <div class="navbar">
+                    <div class="navbar-profile">
+                        <h4>Dein Profil</h4>
+                        <img src="./images/avatar.png" alt="Avatar" width="100">
+                        <p>Benutzername</p>
+                        <p>Sportarten</p>
+                        <p>Anzahl der Workouts</p>
+                        <p>Follower</p>
+                    </div>
+                    <div class="navbar-buttons">
+                        <button id="navButton1">Erstelle Workoutplan</button>
+                        <br>
+                        <button id="navButton2">Meine erstellten Workouts</button>
+                    </div>
+                </div>
+            </aside>
+            <main class="workouts">
+                <h4>Deine Workouts</h4>
+                <table>
+                    <tr>
+                        <td>Titel</td>
+                        <td>Anzahl der Übungen</td>
+                            <td><button id="mainButton1">Anschauen</button></td>
+                            <td><button id="mainButton2">Bearbeiten</button></td>
+                            <td><button id="mainButton3">Benutzer hinzufügen</button></td>
+                    </tr>
+                </table>
+            </main>
+            <footer class="footer">
+                <p>Homepage</p>
+                <p>Über Uns</p>
+                <p>Impressum</p>
+            </footer>
+        </body>
+    </div>
+</html>
